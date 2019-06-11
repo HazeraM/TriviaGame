@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Disney Trivia</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.0.0.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+
+<body>
+    <img id="Disney" src="assets/images/disneylogo.png">
+    <h1>Trivia Game</h1>
+
+    <button type="start" id="startme">Start</button>
+
+    <div class="quizContainer">
+
+        <div id="question"></div>
+
+        <div id="timerDisplay">Timer Countdown</div>
+
+        <div class="row">
+            <button type="button" class="btn btn-lg btn-primary" id="button0" data-value=0>Button0</button>
+        </div>
+        <div class="row">
+            <button type="button" class="btn btn-lg btn-primary" id="button1" data-value=1>Button1</button>
+        </div>
+        <div class="row">
+            <button type="button" class="btn btn-lg btn-primary" id="button2" data-value=2>Button2</button>
+        </div>
+        <div class="row">
+            <button type="button" class="btn btn-lg btn-primary" id="button3" data-value=3>Button3</button>
+        </div>
+
+    </div>
+
+    <div id="quizMessage"></div>
+
+    <div id="quizGif"></div>
+
+    <div id="score"></div>
+
+    <div class="row">
+        <button type="reset" class="resetme" id="reset" value=reset>Reset Game</button>
+
+        <br>
+
+    </div>
+
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+
+</body>
+
+</html>

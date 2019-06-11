@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Lalezar');
+@import url('https://fonts.googleapis.com/css?family=Wellfleet');
+@import url('https://fonts.googleapis.com/css?family=New+Rocker');
+#Disney {
+    margin: 20px;
+}
+
+body {
+    background: url('../images/background.jpg')fixed;
+    background-size: 100%;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#startme {
+    border-radius: 50%;
+    font-size: 20px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px 10px 20px;
+}
+
+.row {
+    margin-bottom: 10px;
+}
+
+#timerDisplay {
+    font-family: 'Lalezar', cursive;
+    font-size: 30px;
+}
+
+h1 {
+    font-family: 'Wellfleet', cursive;
+    font-size: 60px;
+}
+
+#question {
+    margin: 20px;
+    font-family: 'New Rocker', cursive;
+    font-size: 50px;
+}
+
+#score {
+    font-family: 'Lalezar', cursive;
+    font-size: 30px;
+}
+
+.btn {
+    margin: auto;
+    font-family: 'New Rocker', cursive;
+}
+
+#reset {
+    margin: auto;
+}
